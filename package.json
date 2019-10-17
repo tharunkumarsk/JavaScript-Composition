@@ -1,0 +1,27 @@
+{
+  "name": "javascript-composition",
+  "version": "1.0.0",
+  "description": "Keep your functions short, single purpose and referentially transparent(DOT)",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tharunkumarsk/Javascript-Composition.git"
+  },
+  "keywords": [
+    "Javascript",
+    "Composition"
+  ],
+  "author": "Tharunkumar Kanthasamy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tharunkumarsk/Javascript-Composition/issues"
+  },
+  "homepage": "https://github.com/tharunkumarsk/Javascript-Composition#readme",
+  "dependencies": {
+    "jasmine": "^3.5.0",
+    "jasmine-core": "^3.5.0"
+  }
+}
