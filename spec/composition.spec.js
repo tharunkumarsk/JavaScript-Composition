@@ -1,6 +1,6 @@
 var Composition = require("../composition.js");
 
-it("should display default Player as 'X'", () => {
+it("should retun capitalized string", () => {
 
     expect(Composition("tharun kumar")).toEqual("Tharun Kumar");
 });
