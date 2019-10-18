@@ -1,10 +1,16 @@
-var titleCase = (str) =>{
-    const parts = str.trim().split(' ');
-    const trimmed = parts.filter((next) => next.length > 0);
-    const capitalized = trimmed.map((next) => {
+let parts = (str) => str.trim();
+let split = (str) => str.split(' ');
+let trimmed = (str) => str.filter((next) => next.length > 0);
+let capitalized = (str) => str.map((next) => {
     return next[0].toUpperCase() + next.substring(1);
-    });
-    return capitalized.join(' ') ;
-    
-};
+});
+let join = (str) => str.join(' ');
+
+
+var titleCase = (str) => join(
+    capitalized(
+        trimmed(
+            split(
+                parts(str)))));
+
 module.exports = titleCase;
