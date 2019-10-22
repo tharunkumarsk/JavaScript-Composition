@@ -10,9 +10,9 @@ let capitalized = (str) => str.map((next) => {
 
 let join = (str) => str.join(' ');
 
-let apply = (fn1, fn2) => fn2(fn1);
+let applyFunctions = (fn1, fn2) => fn2(fn1);
 
-let compose = (arr, val) => arr.reduce(apply, val);
+let compose = (arr, val) => arr.reduce(applyFunctions, val);
 
 
 
